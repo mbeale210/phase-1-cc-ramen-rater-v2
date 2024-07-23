@@ -38,6 +38,7 @@ function newRamen(e) {
     pic.addEventListener("click", (e) => displayDetails(ramen));
   }
   ramenAppear(newReveiw);
+  ramenForm.reset();
 }
 
 // Callbacks
@@ -47,6 +48,7 @@ const handleClick = () => {
 };
 const addSubmitListener = () => {
   ramenForm.addEventListener("submit", newRamen);
+  
   // Add code
 }
 
